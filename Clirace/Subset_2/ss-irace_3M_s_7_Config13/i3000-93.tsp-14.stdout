@@ -1,0 +1,84 @@
+
+ACO algorithms for the TSP, v1.03
+	 OPTIONS:
+	Note: time limit is set to default 10 seconds
+  -r  --tries with argument "1"
+  -s  --tours with argument "800"
+      --seed with argument "14"
+	Note: optimal solution value is set to default 1
+  -i  --tsplibfile with argument "../rue_large/3000/test/3000-93.tsp"
+acs_flag is set to 1, run Ant Colony System
+  -l  --localsearch with argument "3"
+  -m  --ants with argument "69"
+	Note: number of nearest neighbours in tour construction is set to default 20
+  -a  --alpha with argument "4.530000"
+  -b  --beta with argument "2.950000"
+  -e  --rho with argument "0.430000"
+  -q  --q0 with argument "0.700000"
+  -m  --ants with argument "0"
+  -m  --ants with argument "0"
+  -k  --nnls with argument "24"
+  -d  --dlb with argument "1"
+Non-option arguments:
+
+reading tsp-file ../rue_large/3000/test/3000-93.tsp ... 
+
+calculating distance matrix ..
+
+ .. done
+
+Parameter-settings: 
+
+max_tries		 1
+max_tours		 800
+max_time		 10.00
+seed		 14
+optimum			 1
+n_ants			 69
+nn_ants			 20
+alpha			 4.53
+beta			 2.95
+rho			 0.43
+q_0			 0.70
+elitist_ants		 0
+ras_ranks		 0
+ls_flag			 3
+nn_ls			 24
+dlb_flag		 1
+as_flag			 0
+eas_flag		 0
+ras_flag		 0
+mmas_flag		 0
+bwas_flag		 0
+acs_flag		 1
+
+allocate ants' memory ..
+
+ .. done
+Initialization took 0.9017120000 seconds
+best 41191854, iteration: 1, time 1.65
+best 40968000, iteration: 2, time 2.25
+best 40854850, iteration: 3, time 2.82
+best 40769843, iteration: 4, time 3.35
+best 40690700, iteration: 5, time 3.85
+best 40631990, iteration: 6, time 4.35
+best 40578776, iteration: 7, time 4.84
+best 40554934, iteration: 8, time 5.33
+best 40527402, iteration: 9, time 5.81
+best 40503729, iteration: 10, time 6.30
+best 40477633, iteration: 11, time 6.79
+best 40445709, iteration: 12, time 7.27
+best 40432547, iteration: 13, time 7.73
+best 40415862, iteration: 14, time 8.15
+best 40389674, iteration: 15, time 8.56
+best 40374823, iteration: 16, time 8.95
+best 40341956, iteration: 17, time 9.36
+best 40336767, iteration: 18, time 9.76
+best 40329318, iteration: 19, time 10.00
+
+ Best Solution in try 0 is 40329318
+ Best Solution was found after 19 iterations
+
+try 0, Best 40329318, found at iteration 19, found at time 10.001814
+ t_avgbest = 10.001814
+ t_avgtotal = 10.003384

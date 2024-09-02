@@ -1,0 +1,79 @@
+
+ACO algorithms for the TSP, v1.03
+	 OPTIONS:
+	Note: time limit is set to default 10 seconds
+  -r  --tries with argument "1"
+  -s  --tours with argument "800"
+      --seed with argument "0"
+	Note: optimal solution value is set to default 1
+  -i  --tsplibfile with argument "../rue_large/3000/test/3000-93.tsp"
+acs_flag is set to 1, run Ant Colony System
+  -l  --localsearch with argument "3"
+  -m  --ants with argument "69"
+	Note: number of nearest neighbours in tour construction is set to default 20
+  -a  --alpha with argument "4.530000"
+  -b  --beta with argument "2.950000"
+  -e  --rho with argument "0.430000"
+  -q  --q0 with argument "0.700000"
+  -m  --ants with argument "0"
+  -m  --ants with argument "0"
+  -k  --nnls with argument "24"
+  -d  --dlb with argument "1"
+Non-option arguments:
+
+reading tsp-file ../rue_large/3000/test/3000-93.tsp ... 
+
+calculating distance matrix ..
+
+ .. done
+
+Parameter-settings: 
+
+max_tries		 1
+max_tours		 800
+max_time		 10.00
+seed		 0
+optimum			 1
+n_ants			 69
+nn_ants			 20
+alpha			 4.53
+beta			 2.95
+rho			 0.43
+q_0			 0.70
+elitist_ants		 0
+ras_ranks		 0
+ls_flag			 3
+nn_ls			 24
+dlb_flag		 1
+as_flag			 0
+eas_flag		 0
+ras_flag		 0
+mmas_flag		 0
+bwas_flag		 0
+acs_flag		 1
+
+allocate ants' memory ..
+
+ .. done
+Initialization took 0.9014290000 seconds
+best 41422960, iteration: 1, time 2.14
+best 41119700, iteration: 2, time 3.07
+best 41000591, iteration: 3, time 3.73
+best 40927805, iteration: 4, time 4.20
+best 40895614, iteration: 5, time 4.64
+best 40850124, iteration: 6, time 5.07
+best 40822643, iteration: 7, time 5.52
+best 40811822, iteration: 8, time 5.96
+best 40759164, iteration: 9, time 6.41
+best 40758597, iteration: 10, time 6.86
+best 40748951, iteration: 11, time 7.29
+best 40748682, iteration: 12, time 7.75
+best 40725258, iteration: 15, time 9.01
+best 40725114, iteration: 16, time 9.43
+
+ Best Solution in try 0 is 40725114
+ Best Solution was found after 16 iterations
+
+try 0, Best 40725114, found at iteration 16, found at time 9.430667
+ t_avgbest = 9.430667
+ t_avgtotal = 10.005936
